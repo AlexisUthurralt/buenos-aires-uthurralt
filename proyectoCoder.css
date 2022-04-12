@@ -321,3 +321,23 @@ textarea{
 input{
     background-color: #72AEE3;
 }
+
+.degradadoLineal{
+    background-image: linear-gradient(black, #2D2B2B);
+}
+
+/*Animaciones*/
+
+.textoAnimado{
+    animation-name: texto;
+    animation-duration: 4s;
+}
+
+@keyframes texto{
+    from{ /*Inicio*/
+        transform: translateX(-300px);
+    }
+    to{ /*Final*/
+        transform: translateX(0px);
+    }
+}
